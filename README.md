@@ -99,7 +99,7 @@ This work was done at one operational scale and shape; the role described in the
 
 - **Outsourcing and vendor management.** The studio operated fully in-house. Vendor coordination, quality review, and outsourcing pilots are not in my recent work, and would be the area I would expect to address first in the role.
 - **Multi-team scope.** The studio was a single team. Coordinating across multiple design sub-teams is a real step up in scope, and a first-quarter learning curve is honest to expect.
-- **Design-specific tooling.** I have not used Figma, YouTrack, or Coverbaker in production. I am familiar with the categories these tools occupy (collaborative editing, ticketing, asset management) and would expect working competence in them quickly, though not existing fluency.
+- **Design-specific tooling.** I have not used Figma, YouTrack, or Coverbaker as daily production tools, but the underlying tool categories are familiar: collaborative design/prototyping, ticketing and prioritization, and asset/workflow management. My background with Adobe XD, Adobe Creative Suite, spreadsheet-based dashboards, and custom asset-tracking systems should transfer quickly to the team’s standard toolset.
 
 These are named explicitly because they shape what the first three to six months would realistically look like.
 
