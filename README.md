@@ -53,7 +53,7 @@ The JD names six KPIs and six initial priorities. The tables below show where ea
 | Design a new intake and prioritization model | The morning-pull script + flagging logic (`src/asset-workflow/apps-script-sample.js`) is a working version of this for catalog production. |
 | Launch a transparency dashboard              | The working sheet acts as a live dashboard for the studio. `examples/sample-workflow-status.csv` shows its structure. |
 | Establish quick-win automations              | All three `src/` scripts are quick-win automations, each addressing a specific recurring pain. `docs/case-studies.md` walks through three of them. |
-| Outsourcing pilot scheme                     | Not represented in this repo. See "Honest gaps" below. |
+| Outsourcing pilot scheme                     | Not represented in this repo. See "Scope and transferability" below. |
 | Capacity and demand dashboard                | Same working sheet, viewed by category and stage. The aggregate view answers "how many SKUs at each stage today?" |
 
 ---
