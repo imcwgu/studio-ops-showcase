@@ -103,6 +103,6 @@ A few things are deliberately absent:
 - **No database.** The working sheet is the database. This is a constraint, not an oversight.
 - **No queue.** Apps Script's time-based triggers act as a poor-man's queue. For this volume, that is sufficient.
 - **No CI/CD.** Apps Script is edited in a browser. Version control is via a manual export to GitHub. This is honestly the weakest part of the system; it is also a problem inherent to Apps Script.
-- **No tests.** The system is tested in production, in the sense that production failures are visible immediately and reversible. This is acceptable for the volume; it would not be acceptable at scale.
+- **No formal automated test suite.** Validation was done through staged dry-runs, small-batch rollouts, visible error states surfaced in the working sheet, and reversible manual fallbacks at every external write. For a larger-scale environment, automated tests and CI would be necessary; the validation strategy described here is sized to the volume and reversibility characteristics of this specific operation.
 
 The architecture document closes here because the design philosophy is the actual point: every component was chosen because it could be maintained by a single non-developer operator after the original author left the role. That constraint, more than any technology choice, is what makes the system the shape it is.
