@@ -138,6 +138,6 @@ Logic and structure are accurate; specifics are not.
 
 Submitted as part of an application for the Technical Operations Manager (Design team) role at JetBrains, posted for Amsterdam, Berlin, Prague, and Warsaw.
 
-Berlin-based, EU permanent resident, sixteen years' residency in Germany. English and German B2; native Korean. Comfortable with hybrid work in Berlin or relocation to Amsterdam.
+Berlin-based, EU permanent resident, sixteen years' residency in Germany. English and German B2; native Korean. Comfortable with hybrid work in Berlin and international team environments.
 
 Repository maintained as a portfolio. Issues and questions welcome.
