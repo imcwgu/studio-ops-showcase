@@ -2,7 +2,7 @@
 
 A curated subset of operations and automation work from a six-year role as Studio Manager and Photographer at a Berlin-based e-commerce fashion operation (2021–2026).
 
-This repository was prepared as a supplement to an application for the **Technical Operations Manager (Design team)** role at JetBrains. It documents the systems built to replace manual studio and post-production workflows: what was built, what changed measurably, and why each design choice was made.
+This repository was prepared as a public portfolio showcase for roles around **Creative Operations, Technical Operations, Design Operations, Digital Asset Workflows, and Workflow Automation**. It documents the systems built to replace manual studio and post-production workflows: what was built, what changed measurably, and why each design choice was made.
 
 The body of work is in a different domain (catalog photography production rather than product or UI design), but the operational concerns are the same: intake and prioritization, throughput against quality, capacity visibility, automation of recurring work, and tooling that survives staff change.
 
@@ -32,9 +32,11 @@ The `docs/` folder is the substantive part. `src/` contains sanitized illustrati
 
 ## How this maps to the role
 
-The JD names six KPIs and six initial priorities. The tables below show where each maps to evidence in this repo. Where the match is partial or absent, that is stated honestly rather than stretched.
+## How this maps to operations roles
 
-### KPIs
+Many operations roles share the same core requirements: mapping pain points, managing intake and prioritization, improving throughput without losing quality, creating visibility for workload and status, and building tools that teams can actually use. The tables below show where each of those areas maps to evidence in this repo. Where the match is partial or absent, that is stated honestly rather than stretched.
+
+### Relevant operating areas
 
 | KPI                          | Evidence                                                              |
 |------------------------------|-----------------------------------------------------------------------|
@@ -42,10 +44,10 @@ The JD names six KPIs and six initial priorities. The tables below show where ea
 | Automation impact            | Three production automations documented — ERP integration, batch export, footwear cropping. See `src/`. |
 | Team workload balance        | Throughput maintained or improved through a period of headcount reduction. Mechanism: automation absorbed coordinator tasks (intake, renaming, reconciliation). See `docs/workflow-overview.md` § "What the operator does now". |
 | Tooling ecosystem ownership  | Single-operator ownership of an integrated stack (ERP, cloud file store, Sheets, Photoshop, Python service). See `docs/architecture.md`. |
-| Quality (stakeholder NPS)    | **Partial.** Internal qualitative feedback only — no formal NPS instrument was in place. A formal measurement system would be one of the first things to build in a role like this. |
-| Smart outsourcing impact     | **Not directly applicable.** Outsourcing was not part of the studio's operating model. This is a genuine gap relative to the JD and is acknowledged below. |
+| Quality feedback             | **Partial.** Internal qualitative feedback only — no formal NPS instrument was in place. A formal measurement system would be one of the first things to build at a larger scale. |
+| Outsourcing / vendor impact  | **Not directly applicable.** Outsourcing was not part of the studio's operating model. This is a genuine gap and is acknowledged below. |
 
-### Initial six-month priorities
+### Workflow improvement areas
 
 | Priority from the JD                         | Where this repo demonstrates analogous work |
 |----------------------------------------------|---------------------------------------------|
@@ -68,8 +70,7 @@ Numbers were derived from the studio's internal production-tracking sheets, comp
 | Daily output (SKUs / day)          | ~9.7            | ~15.6          | +60%     |
 | Same-day completion rate           | ~50%            | ~82%           | +32 pp   |
 
-These numbers were maintained through a period when team headcount was reduced — the most relevant point for the "team workload balance" KPI.
-
+These numbers were maintained through a period when team headcount was reduced — the most relevant point for the "team workload balance" area.
 ---
 
 ## What this work actually was
@@ -78,7 +79,7 @@ Most studio operations roles end at "I run the floor." Most automation engineeri
 
 Every script in this repo was written to solve a problem I had personally felt as the operator the day before. The architecture document explains the shape of the system; the case studies explain three of the more interesting problems and what was traded off in each.
 
-The relevance to a Design Operations role is not that catalog photography is the same as product design — it isn't. The relevance is that the operational shape is the same: a creative team produces artefacts on deadline, an intake queue feeds them, capacity is finite, quality varies, and tooling either helps or hinders. The underlying patterns transfer.
+The relevance to operations roles outside catalog photography is not that the domains are identical — they are not. The relevance is that the operational shape is often similar: a creative or content team produces artefacts on deadline, an intake queue feeds them, capacity is finite, quality varies, and tooling either helps or hinders. The underlying patterns transfer.
 
 ---
 
@@ -95,11 +96,11 @@ The stack reflects an explicit constraint: no developer team, no infrastructure 
 
 ## Scope and transferability
 
-This work was done at one operational scale and shape; the role described in the JD is at a different scale and shape. Three areas where the transfer is not direct:
+This work was done at one operational scale and shape. Many larger or more specialized operations roles have a different scale and shape. Three areas where the transfer is not direct:
 
-- **Outsourcing and vendor management.** The studio operated fully in-house. Vendor coordination, quality review, and outsourcing pilots are not in my recent work, and would be the area I would expect to address first in the role.
-- **Multi-team scope.** The studio was a single team. Coordinating across multiple design sub-teams is a real step up in scope, and a first-quarter learning curve is honest to expect.
-- **Design-specific tooling.** I have not used Figma, YouTrack, or Coverbaker as daily production tools, but the underlying tool categories are familiar: collaborative design/prototyping, ticketing and prioritization, and asset/workflow management. My background with Adobe XD, Adobe Creative Suite, spreadsheet-based dashboards, and custom asset-tracking systems should transfer quickly to the team’s standard toolset.
+- **Outsourcing and vendor management.** The studio operated fully in-house. Vendor coordination, quality review, and outsourcing pilots are not in my recent work, and would be the area I would expect to address first if the role required it.
+- **Multi-team scope.** The studio was a single team. Coordinating across multiple design, content, or production sub-teams is a real step up in scope, and a first-quarter learning curve is honest to expect.
+- **Design-specific tooling.** I have not used Figma, YouTrack, or Coverbaker as daily production tools, but the underlying tool categories are familiar: collaborative design/prototyping, ticketing and prioritization, and asset/workflow management. My background with Adobe XD, Adobe Creative Suite, spreadsheet-based dashboards, and custom asset-tracking systems should transfer quickly to a team's standard toolset.
 
 These are named explicitly because they shape what the first three to six months would realistically look like.
 
@@ -134,9 +135,9 @@ Logic and structure are accurate; specifics are not.
 
 ---
 
-## Application context
+## Portfolio context
 
-Submitted as part of an application for the Technical Operations Manager (Design team) role at JetBrains, posted for Amsterdam, Berlin, Prague, and Warsaw.
+Prepared as a public portfolio sample for roles involving creative operations, workflow automation, content production systems, digital asset workflows, and technical operations.
 
 Berlin-based, EU permanent resident, sixteen years' residency in Germany. English and German B2; native Korean. Comfortable with hybrid work in Berlin and international team environments.
 
