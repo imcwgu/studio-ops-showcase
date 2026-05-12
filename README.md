@@ -30,15 +30,13 @@ The `docs/` folder is the substantive part. `src/` contains sanitized illustrati
 
 ---
 
-## How this maps to the role
-
 ## How this maps to operations roles
 
 Many operations roles share the same core requirements: mapping pain points, managing intake and prioritization, improving throughput without losing quality, creating visibility for workload and status, and building tools that teams can actually use. The tables below show where each of those areas maps to evidence in this repo. Where the match is partial or absent, that is stated honestly rather than stretched.
 
 ### Relevant operating areas
 
-| KPI                          | Evidence                                                              |
+| Area                         | Evidence                                                              |
 |------------------------------|-----------------------------------------------------------------------|
 | Speed (request → delivery)   | Average processing time per batch reduced ~73% (~164h → ~43h); same-day completion rate improved from ~50% to ~82%. See `docs/case-studies.md`. |
 | Automation impact            | Three production automations documented — ERP integration, batch export, footwear cropping. See `src/`. |
@@ -49,7 +47,7 @@ Many operations roles share the same core requirements: mapping pain points, man
 
 ### Workflow improvement areas
 
-| Priority from the JD                         | Where this repo demonstrates analogous work |
+| Workflow area                                | Where this repo demonstrates analogous work |
 |----------------------------------------------|---------------------------------------------|
 | Audit current workflows, map pain points     | `docs/workflow-overview.md` is exactly this for the studio context. |
 | Design a new intake and prioritization model | The morning-pull script + flagging logic (`src/asset-workflow/apps-script-sample.js`) is a working version of this for catalog production. |
@@ -71,6 +69,7 @@ Numbers were derived from the studio's internal production-tracking sheets, comp
 | Same-day completion rate           | ~50%            | ~82%           | +32 pp   |
 
 These numbers were maintained through a period when team headcount was reduced — the most relevant point for the "team workload balance" area.
+
 ---
 
 ## What this work actually was
